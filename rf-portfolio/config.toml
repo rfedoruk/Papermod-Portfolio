@@ -10,19 +10,7 @@ theme = 'PaperMod'
 [params]
     [params.homeInfoParams]
         enabled = true
-        title = "<Title>" # optional default will be site title
-
-    [params.profileMode]
-    enabled = false
-    title = "ExampleSite"
-    subtitle = "This is subtitle"
-    imageUrl = "/portfolioPic.png"
-    imageWidth = 120
-    imageHeight = 120
-    imageTitle = "my image"
-    [profileMode.buttons]
-
-    # https://gohugo.io/getting-started/configuration/#configure-blackfriday
+        title = "<Title>"
     [blackfriday]
       plainIDAnchors = true
       hrefTargetBlank = true
