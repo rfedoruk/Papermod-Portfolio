@@ -1,0 +1,4 @@
+[submodule "rf-portfolio/public"]
+	path = rf-portfolio/public
+	url = https://github.com/rfedoruk/Papermod-Deploy.git
+	branch = main

@@ -1,4 +1,28 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://romanfedoruk.com'
 languageCode = 'en-us'
 title = 'Roman Fedoruk Portfolio'
 theme = 'PaperMod'
+
+[minify]
+    disableXML = true
+    minifyOutput = true
+
+[params]
+    [params.homeInfoParams]
+        enabled = true
+        title = "<Title>" # optional default will be site title
+
+    [params.profileMode]
+    enabled = false
+    title = "ExampleSite"
+    subtitle = "This is subtitle"
+    imageUrl = "/portfolioPic.png"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "my image"
+    [profileMode.buttons]
+
+    # https://gohugo.io/getting-started/configuration/#configure-blackfriday
+    [blackfriday]
+      plainIDAnchors = true
+      hrefTargetBlank = true
